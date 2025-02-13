@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Compiled files
+*.class
+*.jar
+!gradle-wrapper.jar
+*.war
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
