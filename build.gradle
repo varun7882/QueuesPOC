@@ -23,6 +23,14 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+	compileOnly 'org.projectlombok:lombok:1.18.30' // Or latest version
+	annotationProcessor 'org.projectlombok:lombok:1.18.30' // Or latest version
+
+	// For testing (if needed)
+	testCompileOnly 'org.projectlombok:lombok:1.18.30' // Or latest version
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
 }
 
 tasks.named('test') {
